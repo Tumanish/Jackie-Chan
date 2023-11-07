@@ -1,0 +1,134 @@
+.font {
+	font-family: Montserrat;
+	font-weight: 400;
+	letter-spacing: 0px;
+}
+
+
+.testColor{
+	background-color: green;
+	border-radius: 40px;
+	/* opacity: 0.8; */
+}
+
+.testColor2{
+	background-color: rgb(202, 227, 17);
+	border-radius: 40px;
+	opacity: 0.8;
+}
+
+.testColor3{
+	background-color: rgb(255, 26, 1);
+	border-radius: 40px;
+	opacity: 0.8;
+}
+
+
+
+/* Основная сетка  */
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	gap: 0px;
+}
+
+.wallpaper {
+	background-image: url(./image/wallpaper.jpg);
+	width: 1600px;
+	height: 6153px;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	/* grid-template-rows: 444px 252px; */
+	justify-items: center;
+	align-content: start;
+	gap: 0px;
+}
+
+
+
+
+/* header */
+.header{
+	width: 1600px;
+	height: 292px;
+}
+
+/*  */
+
+.top__player--section{
+	width: 1200px;
+	height: 886px;
+}
+.top__player--text{
+	/* width: 1600px; */
+	/* height: 500px; */
+	opacity: 1;
+
+}
+
+#topVideo{
+	width: 1200px;
+	height: 648px;
+	border-radius: 40px;
+}
+
+/* Статья */
+
+.author__info--section{
+	width: 1200px;
+	display: grid;
+	grid-template-columns: 332px 220px;
+	justify-content: space-between;
+
+}
+
+.author__info--block{
+	width: 332px;
+	height: 145px;
+}
+
+.author__info__likes{
+	width: 220px;
+	height: 145px;
+}
+
+
+
+.article__vsFoto{
+	width: 1200px;
+	display: grid;
+	grid-template-columns: 665px 467px;
+	gap: 68px;
+
+}
+
+
+
+
+/* foto slider */
+.slider__wrapper{
+	width: 1200px;
+	height: 252px;
+}
+#foto{
+	width: 468px;
+	height: 444px;
+}
+
+
+.swiper-slide img{
+	width:  178px;
+	height:  162px;
+}
+
+.redBorder{
+	border: 5px solid red;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>J</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet"
+			href="./swiper/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+		<link rel="stylesheet" href="JackieStyle.css">
+	</head>
+	<body>
+		<div class="grid">
+			<div class="wallpaper">
+				<header class="header testColor">
+					<div class="author"></div>
+					<div class="header__menu"></div>
+					<div class="arrow"></div>
+				</header>
+				<section class="top__player--section testColor">
+					<span class="top__player--text"> Актер
+						<span class="top__player--name">Джеки Чан</span>
+					</span>
+
+					<div class="top__player--video--background">
+						
+						
+						<div class="top__player--video">
+							<iframe id="topVideo" width="560" height="315"
+								src="https://www.youtube.com/embed/Cr_GyRJZIH8?si=egxR2ad8pbpbcutf"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								allowfullscreen></iframe>
+						</div>
+
+
+						<div>
+							<span>Мировая ззвезда кино Джеки Чан</span>
+							<span>просмотров <span id="views"> 100 000</span></span>
+						</div>
+					</div>
+				</section>
+
+				<section class="author__info--section testColor">
+					<div class="author__info--block testColor2">
+						<span class="author__info--text">Автор новости:
+							<span>Александр</span>
+						</span>
+						<div> Блок с фото/звезды 120новостей</div>
+					</div>
+					<div class="author__info__likes testColor3">блок лайков</div>
+				</section>
+
+				<section class="article__vsFoto">
+					<div class="article__text__left">
+
+						<span>О мировой звезде достигшего славы в кино за 50 лет</span>
+						<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
+							в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
+							Семикратный
+							обладатель «Золотого мяча», шестикратный — «Золотой бутсы». Воспитанник
+							академии «Барселоны», вместе с этим клубом выиграл десять титулов
+							чемпиона
+							Испании, четыре Лиги чемпионов УЕФА, семь Кубков Испании, восемь
+							Суперкубков Испании, три Суперкубка Европы и три чемпионата мира среди
+							клубов.
+							<span>Читать далее PIC </span>
+						</span>
+					</div>
+					<div class="article__text__right">
+
+						<span>Сотреть фото</span>
+						<div id="foto">
+							<!-- Фото на выбор -->
+							<img src="./image/chan max foto.jpg" alt>
+						</div>
+					</div>
+				</section>
+
+				<span>Фото</span>
+				<div class="slider__wrapper testColor2">
+					<!-- Блок слайдера! -->
+					<div class="swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper" id="swiperFoto">
+							<!-- Slides -->
+							<div class="swiper-slide ">
+								<img class="redBorder" src="./image/chan max foto.jpg" alt
+									onclick="fotoSelect(this)">
+								<p>Сылка на фото</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
+									onclick="fotoSelect(this)">
+								<p>Сылка на фото</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide ">
+								<img class="redBorder" src="./image/chan max foto.jpg" alt
+									onclick="fotoSelect(this)">
+								<p>Сылка на фото</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
+									onclick="fotoSelect(this)">
+								<p>Сылка на фото</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<h1>Карьера, награды</h1>
+				<article>
+					<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
+						в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
+						Семикратный обладатель «Золотого мяча», шестикратный — «Золотой бутсы».
+						Воспитанник академии «Барселоны», вместе с этим клубом выиграл десять
+						титулов</span>
+					<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
+						в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
+						Семикратный обладатель «Золотого мяча», шестикратный — «Золотой бутсы».
+						Воспитанник академии «Барселоны», вместе с этим клубом выиграл десять
+						титулов</span>
+					<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
+						в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
+						Семикратный обладатель «Золотого мяча», шестикратный — «Золотой бутсы».
+						Воспитанник академии «Барселоны», вместе с </span>
+					<span>-- чтать далее</span>
+				</article>
+
+				<h1>Видео</h1>
+				<div>
+					<!-- Видео -->
+				</div>
+				<div>
+					<!-- Слайдер видео -->
+				</div>
+				<span> смотреть далее</span>
+
+				<section class="advertising">
+					<!-- Реклама -->
+				</section>
+				<section class="video-select">
+					<div>
+						<!-- video -->
+					</div>
+					<div>
+						<!--action buttons -->
+					</div>
+				</section>
+				<footer>
+					<!-- footer -->
+				</footer>
+			</div>
+		</div>
+
+	</body>
+	<script src="./swiper/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+	<script src="./script.js"></script>
+</html>
