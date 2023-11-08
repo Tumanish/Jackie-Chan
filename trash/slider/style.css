@@ -64,3 +64,8 @@ body{
 .redBorder{
 	border: 5px solid red;
 }
+
+
+.sp{
+	margin-bottom: 10px;
+}
