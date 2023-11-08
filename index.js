@@ -31,3 +31,4 @@ function fotoSelect(element) {
 	element.classList.add("redBorder");
 
 }
+
