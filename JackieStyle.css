@@ -32,8 +32,10 @@ body {
 /* Основная сетка  */
 
 body {
-	width: 100%;
-	height: 100%;
+	/* width: 100%; */
+	/* height: 50%; */
+	/* height: 5500px; */
+	/* overflow: hidden; */
 }
 
 .grid {
@@ -47,9 +49,19 @@ body {
 	background-image: url(./image/wallpaper.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+
+
+	/* background-size: contain; */
+
+	background-size: cover;
+
 	/* width: 100%; */
 	width: 1600px;
-	height: 6153px;
+	/* height: 6153px; */
+
+	/* высота кривого фона */
+	height: 5550px;
+
 	display: grid;
 	grid-template-columns: 1fr;
 	/* grid-template-rows: 444px 252px; */
@@ -346,7 +358,7 @@ body {
 
 }
 
-.slider__wrapper--button-next span{
+.slider__wrapper--button-next span {
 	cursor: pointer;
 }
 
@@ -372,6 +384,34 @@ body {
 
 
 
-.advertising img{
+.advertising img {
 	width: 1600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__background {
+	width: 1600px;
+	height: 540px;
+
+	background-color: black;
+
 }
