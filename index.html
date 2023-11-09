@@ -11,33 +11,60 @@
 	</head>
 	<body>
 		<!-- контейнер 1190px -->
+		<!-- контейнер 1200px -->
 		<div class="grid">
 			<div class="wallpaper">
-				<header class="header testColor">
-					<div class="author"></div>
-					<div class="header__menu"></div>
-					<div class="arrow"></div>
+				<header class="header">
+
+					<div class="author">
+						<div class="circle">
+							<img class="redCircle" src="./image/Header img/redCircl.svg" alt>
+						</div>
+						<div class="bell">
+							<img src="./image/Header img/bell.svg" alt>
+						</div>
+						<div class="avatar-wrapper">
+							<img src="./image/Header img/Bitmap.jpg" alt="avatar">
+						</div>
+						<div class="stars">
+							<div class="avatar__name">Александр</div>
+							<img src="./image/Header img/stars.svg" alt>
+						</div>
+						<div>
+							<img class="bag" src="./image/Header img/bag.svg" alt>
+						</div>
+						<div class="point">44</div>
+					</div>
+					<div class="header__burger__menu"></div>
 				</header>
-				<section class="top__player--section testColor">
-					<span class="top__player--text"> Актер
-						<span class="top__player--name">Джеки Чан</span>
-					</span>
+
+				<div class="arrowback">
+					<img src="./image/arrowLeft.svg" alt>
+				</div>
+
+				<section class="top__player--section">
+					<div class="top__player--text">
+						<span class="top__player--text__title">
+							Актер
+						</span>
+						<span class="top__player--text__name">
+							Джеки Чан
+						</span>
+					</div>
 
 					<div class="top__player--video--background">
-						
-						
 						<div class="top__player--video">
-							<!-- <iframe id="topVideo" width="560" height="315"
-								src="https://www.youtube.com/embed/Cr_GyRJZIH8?si=egxR2ad8pbpbcutf"
+							<iframe id="topVideo" width="1200" height="648"
+								src="https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA"
 								title="YouTube video player" frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								allowfullscreen></iframe> -->
+								allowfullscreen></iframe>
 						</div>
-
-
-						<div>
-							<span>Мировая ззвезда кино Джеки Чан</span>
-							<span>просмотров <span id="views"> 100 000</span></span>
+						<div class="top__player__discription">
+							<div class="top__player__discription--background">
+								<p class="top__player__discription--text">Мировая звезда кино Джеки Чан</p>
+							</div>
+							<span class="top__player__discription--views">просмотров <span id="views"> 100 000</span></span>
 						</div>
 					</div>
 				</section>
@@ -55,8 +82,8 @@
 				<section class="article__vsFoto">
 					<div class="article__text__left">
 
-						<span>О мировой звезде достигшего славы в кино за 50 лет</span>
-						<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
+						<span class="article__textvsfoto--text">О мировой звезде достигшего славы в кино за 50 лет</span>
+						<span class="article__textvsfoto--text">Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
 							в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
 							Семикратный
 							обладатель «Золотого мяча», шестикратный — «Золотой бутсы». Воспитанник
@@ -189,29 +216,29 @@
 									onclick="fotoSelect(this)">
 								<p>Сылка на фото</p>
 							</div>
-							
-						</div>
-					<!-- Слайдер видео -->
-				</div>
-				<span> смотреть далее</span>
 
-				<section class="advertising">
-					<!-- Реклама -->
-				</section>
-				<section class="video-select">
-					<div>
-						<!-- video -->
+						</div>
+						<!-- Слайдер видео -->
 					</div>
-					<div>
-						<!--action buttons -->
-					</div>
-				</section>
-				<footer>
-					<!-- footer -->
-				</footer>
+					<span> смотреть далее</span>
+
+					<section class="advertising">
+						<!-- Реклама -->
+					</section>
+					<section class="video-select">
+						<div>
+							<!-- video -->
+						</div>
+						<div>
+							<!--action buttons -->
+						</div>
+					</section>
+					<footer>
+						<!-- footer -->
+					</footer>
+				</div>
 			</div>
-		</div>
-	</body>
-	<script src="./swiper/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
-	<script src="./script.js"></script>
-</html>
+		</body>
+		<script src="./swiper/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+		<script src="./script.js"></script>
+	</html>
