@@ -82,7 +82,10 @@
 				<section class="article__vsFoto">
 					<div class="article__text__left">
 
-						<span class="article__textvsfoto--text">О мировой звезде достигшего славы в кино за 50 лет</span>
+						<div class="article__textvsfoto--text">
+							<span >О мировой звезде достигшего славы в кино за 50 лет</span>
+						</div>
+						<!-- <div class="article__textvsFoto--text"></div> -->
 						<span class="article__textvsfoto--text">Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
 							в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
 							Семикратный
@@ -97,7 +100,7 @@
 					</div>
 					<div class="article__text__right">
 
-						<span>Сотреть фото</span>
+						<h1>Сотреть фото</h1>
 						<div id="foto">
 							<!-- Фото на выбор -->
 							<img src="./image/chan max foto.jpg" alt>
@@ -105,14 +108,14 @@
 					</div>
 				</section>
 
-				<span>Фото</span>
-				<div class="slider__wrapper testColor2">
+				<h1 class="slider-title">Фото</h1>
+				<div class="slider__wrapper ">
 					<!-- Блок слайдера! -->
 					<div class="swiper">
 						<!-- Additional required wrapper -->
 						<div class="swiper-wrapper" id="swiperFoto">
 							<!-- Slides -->
-							<div class="swiper-slide ">
+							<div class="swiper-slide leftPaddingFirstFoto">
 								<img class="redBorder" src="./image/chan max foto.jpg" alt
 									onclick="fotoSelect(this)">
 								<p>Сылка на фото</p>
@@ -175,6 +178,9 @@
 
 						</div>
 					</div>
+				</div>
+				<div class="slider__wrapper--button-next">
+					<span > смотреть далее ></span>
 				</div>
 
 				<h1>Карьера, награды</h1>
@@ -199,31 +205,109 @@
 				<h1 class="selected__video-title">Видео</h1>
 				<div class="selected__video">
 					<!-- Видео -->
+					<iframe id="topVideo" width="1200" height="648"
+								src="https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								allowfullscreen></iframe>
 				</div>
-				<div class="slider__wrapper--video">
+
+
+
+
+
+
+
+
+
+				<div class="slider__wrapper ">
 					<!-- Блок слайдера! -->
 					<div class="swiper">
 						<!-- Additional required wrapper -->
 						<div class="swiper-wrapper" id="swiperFoto">
 							<!-- Slides -->
-							<div class="swiper-slide ">
+							<div class="swiper-slide leftPaddingFirstFoto">
 								<img class="redBorder" src="./image/chan max foto.jpg" alt
 									onclick="fotoSelect(this)">
 								<p>Сылка на фото</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
+									onclick="fotoSelect(this)">
+								<p>Сылка на фото</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
+									onclick="fotoSelect(this)">
 							</div>
 							<div class="swiper-slide ">
 								<img class="redBorder" src="./image/chan max foto.jpg" alt
 									onclick="fotoSelect(this)">
 								<p>Сылка на фото</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
+									onclick="fotoSelect(this)">
+								<p>Сылка на фото</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
+									onclick="fotoSelect(this)">
 							</div>
 
 						</div>
-						<!-- Слайдер видео -->
 					</div>
-					<span> смотреть далее</span>
+				</div>
+
+
+
+
+				<div class="slider__wrapper--button-next">
+					<span > смотреть далее ></span>
+				</div>
+
+
+
+
+
+			
 
 					<section class="advertising">
+						<!-- TODO -->
 						<!-- Реклама -->
+						<img src="./image/New Bitmap Image.jpg" alt="">
 					</section>
 					<section class="video-select">
 						<div>

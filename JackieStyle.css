@@ -252,8 +252,25 @@ body {
 
 /* foto slider */
 .slider__wrapper {
+	padding-top: 34px;
 	width: 1200px;
 	height: 252px;
+
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.slider-title {
+	/* width: 1200px; */
+	justify-self: start;
+	padding-left: 200px;
+}
+
+.leftPaddingFirstFoto {
+	margin-left: 20px;
 }
 
 #foto {
@@ -276,6 +293,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(3, 385px);
 	gap: 10px;
+	/* поправить */
 	grid-template-areas: "a b c" ". . e";
 	background-color: white;
 	border-radius: 22.5px;
@@ -311,6 +329,28 @@ body {
 	height: 252px;
 }
 
+.slider__wrapper--button-next {
+	margin-top: 20px;
+
+	width: 1200px;
+	display: grid;
+	justify-items: end;
+
+	color: #000;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+}
+
+.slider__wrapper--button-next span{
+	cursor: pointer;
+}
+
+
 
 .article__vsFoto {
 	display: grid;
@@ -320,10 +360,18 @@ body {
 
 .article__text__left {
 	display: grid;
+	padding-top: 40px;
+	gap: 20px;
 }
 
 .article__textvsfoto--text {
 	border-radius: 15px;
-	background-color: var(--, #FFF);
+	background-color: white;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.advertising img{
+	width: 1600px;
 }
