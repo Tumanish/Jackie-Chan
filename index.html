@@ -9,84 +9,150 @@
 			href="./swiper/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
 		<link rel="stylesheet" href="JackieStyle.css">
 	</head>
-	<body>
+	<body class="grid">
 		<!-- контейнер 1190px -->
 		<!-- контейнер 1200px -->
-		<div class="grid">
-			<div class="wallpaper">
-				<header class="header">
-
-					<div class="author">
-						<div class="circle">
-							<img class="redCircle" src="./image/Header img/redCircl.svg" alt>
-						</div>
-						<div class="bell">
-							<img src="./image/Header img/Bell.svg" alt>
-						</div>
-						<div class="avatar-wrapper">
-							<img src="./image/Header img/Bitmap.jpg" alt="avatar">
-						</div>
-						<div class="stars">
-							<div class="avatar__name">Александр</div>
-							<img src="./image/Header img/stars.svg" alt>
-						</div>
-						<div>
-							<img class="bag" src="./image/Header img/bag.svg" alt>
-						</div>
-						<div class="point">44</div>
-					</div>
-					<div class="header__burger__menu"></div>
-				</header>
-
-				<div class="arrowback">
-					<img src="./image/arrowLeft.svg" alt>
+		<header class="header">
+			<div class="header__wallpaper">
+				<div class="logo">
+					<img src="./image/Header img/WorldStartLogo.svg" alt="За стеклом"
+						width="250px" height="215px">
 				</div>
 
-				<section class="top__player--section">
-					<div class="top__player--text">
-						<span class="top__player--text__title">
-							Актер
-						</span>
-						<span class="top__player--text__name">
-							Джеки Чан
-						</span>
+				<div class="author__card">
+
+					<div class="author__card__bell--wrapper">
+						<img class="redCircle" src="./image/Header img/redCircl.svg" alt>
+						<img class="bell" src="./image/Header img/Bell.svg" alt>
 					</div>
 
-					<div class="top__player--video--background">
-						<div class="top__player--video">
-							<iframe id="topVideo" width="1200" height="648"
-								src="https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA"
-								title="YouTube video player" frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								allowfullscreen></iframe>
+					<div class="header__avatar">
+						<img class="avatar-wrapper" src="./image/Header img/АВАТРАР header.jpg"
+							alt="avatar">
+					</div>
+
+					<div class="stars">
+						<div class="avatar__name">Александр</div>
+						<!-- TO DO скрипт для рейтинга 2 вида звезд-->
+						<!-- <img src="./image/Header img/stars.svg" alt> -->
+
+						<div class="author__info__stars-wrapper">
+							<img src="./image/Header img/FulStar.svg" alt="stars">
+							<img src="./image/Header img/FulStar.svg" alt="stars">
+							<img src="./image/Header img/FulStar.svg" alt="stars">
+							<img src="./image/Header img/emptyStar.svg" alt="stars">
+							<img src="./image/Header img/emptyStar.svg" alt="stars">
 						</div>
-						<div class="top__player__discription">
-							<div class="top__player__discription--background">
-								<p class="top__player__discription--text">Мировая звезда кино Джеки Чан</p>
-							</div>
-							<span class="top__player__discription--views">просмотров <span id="views"> 100 000</span></span>
+
+					</div>
+
+					<div>
+						<img class="bag" src="./image/Header img/bag.svg" alt>
+					</div>
+
+					<div class="header__reiting">
+						<div class="header__reiting--wrapper">
+							<span>4523</span>
 						</div>
 					</div>
-				</section>
+				</div>
+				<div class="header__burger__menu">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+			</div>
+		</header>
 
-				<section class="author__info--section testColor">
-					<div class="author__info--block testColor2">
-						<span class="author__info--text">Автор новости:
-							<span>Александр</span>
-						</span>
-						<div> Блок с фото/звезды 120новостей</div>
+		<div class="arrowback">
+			<img src="./image/arrowLeft.svg" alt>
+		</div>
+
+		<section class="section-main-video">
+			<div class="section-main-video__title">
+				<span>
+					Джеки Чан
+				</span>
+			</div>
+
+			<div class="section-main-video--background">
+				<div class="section-main-video__player-wrapper">
+					<iframe id="topVideo" width="1200" height="648"
+						src="https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe>
+				</div>
+
+				<div class="section-main-video__discription">
+
+					<div class="section-main-video__discription-background">
+						<span class="section-main-video__discription-text">Жизнь и карьера любимой
+							звезды!! </span>
 					</div>
-					<div class="author__info__likes testColor3">блок лайков</div>
-				</section>
 
-				<section class="article__vsFoto">
-					<div class="article__text__left">
+					<span class="section-main-video__discription-views">просмотров <span
+							id="views">
+							100 000</span></span>
+				</div>
+			</div>
+		</section>
 
-						<div class="article__textvsfoto--text">
-							<span >О мировой звезде достигшего славы в кино за 50 лет</span>
+		<section class="section-author-info">
+
+			<div class="section-author-info--container ">
+				<span class="author__info--text">Автор новости:
+					<span>Александр</span>
+				</span>
+
+				<div class="author__info__ava__wrapper">
+					<img src="./image/author-ava.jpg" alt>
+					<div class="stars-and-news-number">
+
+						<div class="author__info__stars-wrapper stars-gap">
+							<img src="./image/Header img/FulStar.svg" alt="stars">
+							<img src="./image/Header img/FulStar.svg" alt="stars">
+							<img src="./image/Header img/FulStar.svg" alt="stars">
+							<img src="./image/Header img/emptyStar.svg" alt="stars">
+							<img src="./image/Header img/emptyStar.svg" alt="stars">
 						</div>
-						<!-- <div class="article__textvsFoto--text"></div> -->
-						<span class="article__textvsfoto--text">Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
+						<span> <span>120</span> новостей</span></div>
+				</div>
+			</div>
+
+			<div class="section-author-info__likes ">
+				<div>
+					<img src="./image/Like ava/devushki-s-tatuirovkami-107-foto-59 12.jpg"
+						alt="ava">
+				</div>
+				<div class="likes-mini-Avatars">
+					<img class="one" src="./image/Like ava/mini g.png" alt="ava">
+					<img class="two" src="./image/Like ava/mini g.png" alt="ava">
+					<img class="three" src="./image/Like ava/mini g.png" alt="ava">
+					<img class="four" src="./image/Like ava/mini g.png" alt="ava">
+				</div>
+				<div class="heart__Counter">
+					<span>M</span>
+					<img src="./image/likesAva/redHeart.svg" alt="heart">
+				</div>
+				<div class="heart__Counter">
+					<span>4</span>
+					<img class="heart__Counter__redHeart" src="./image/likesAva/redHeart.svg"
+						alt="heart">
+				</div>
+			</section>
+
+			<!-- Статья -->
+			<section class="article">
+				<div class="article__text__left">
+					<div class="article__text__left--h1">
+						<span>О мировой звезде достигшего славы в кино за 50 лет</span>
+					</div>
+					<!-- <div class="article__textvsFoto--text"></div> -->
+					<div class="article__text__left--text">
+
+						<span>Признаётся одним из лучших
+							футболистов всех времён. Лучший бомбардир
 							в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
 							Семикратный
 							обладатель «Золотого мяча», шестикратный — «Золотой бутсы». Воспитанник
@@ -95,249 +161,327 @@
 							Испании, четыре Лиги чемпионов УЕФА, семь Кубков Испании, восемь
 							Суперкубков Испании, три Суперкубка Европы и три чемпионата мира среди
 							клубов.
-							<span>Читать далее PIC </span>
 						</span>
-					</div>
-					<div class="article__text__right">
-
-						<h1>Сотреть фото</h1>
-						<div id="foto">
-							<!-- Фото на выбор -->
-							<img src="./image/chan max foto.jpg" alt>
-						</div>
-					</div>
-				</section>
-
-				<h1 class="slider-title">Фото</h1>
-				<div class="slider__wrapper ">
-					<!-- Блок слайдера! -->
-					<div class="swiper">
-						<!-- Additional required wrapper -->
-						<div class="swiper-wrapper" id="swiperFoto">
-							<!-- Slides -->
-							<div class="swiper-slide leftPaddingFirstFoto">
-								<img class="redBorder" src="./image/chan max foto.jpg" alt
-									onclick="fotoSelect(this)">
-								<p>Сылка на фото</p>
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
-									onclick="fotoSelect(this)">
-								<p>Сылка на фото</p>
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide ">
-								<img class="redBorder" src="./image/chan max foto.jpg" alt
-									onclick="fotoSelect(this)">
-								<p>Сылка на фото</p>
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
-									onclick="fotoSelect(this)">
-								<p>Сылка на фото</p>
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-
+						<div class="article__text__left__button-next">
+							<span>Читать далее</span>
+							<img src="./image/textarrowright.svg" alt>
 						</div>
 					</div>
 				</div>
-				<div class="slider__wrapper--button-next">
-					<span > смотреть далее ></span>
-				</div>
+				<div class="article__text__right">
 
-				<h1>Карьера, награды</h1>
-				<article class="triple___article">
-					<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
-						в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
-						Семикратный обладатель «Золотого мяча», шестикратный — «Золотой бутсы».
-						Воспитанник академии «Барселоны», вместе с этим клубом выиграл десять
-						титулов</span>
-					<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
-						в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
-						Семикратный обладатель «Золотого мяча», шестикратный — «Золотой бутсы».
-						Воспитанник академии «Барселоны», вместе с этим клубом выиграл десять
-						титулов</span>
-					<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
-						в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
-						Семикратный обладатель «Золотого мяча», шестикратный — «Золотой бутсы».
-						Воспитанник академии «Барселоны», вместе с </span>
-					<span class="triple___article--button">Читать далее ></span>
-				</article>
-
-				<h1 class="selected__video-title">Видео</h1>
-				<div class="selected__video">
-					<!-- Видео -->
-					<iframe id="topVideo" width="1200" height="648"
-								src="https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA"
-								title="YouTube video player" frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								allowfullscreen></iframe>
-				</div>
-
-
-
-
-
-
-
-
-
-				<div class="slider__wrapper ">
-					<!-- Блок слайдера! -->
-					<div class="swiper">
-						<!-- Additional required wrapper -->
-						<div class="swiper-wrapper" id="swiperFoto">
-							<!-- Slides -->
-							<div class="swiper-slide leftPaddingFirstFoto">
-								<img class="redBorder" src="./image/chan max foto.jpg" alt
-									onclick="fotoSelect(this)">
-								<p>Сылка на фото</p>
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
-									onclick="fotoSelect(this)">
-								<p>Сылка на фото</p>
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide ">
-								<img class="redBorder" src="./image/chan max foto.jpg" alt
-									onclick="fotoSelect(this)">
-								<p>Сылка на фото</p>
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
-									onclick="fotoSelect(this)">
-								<p>Сылка на фото</p>
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-							<div class="swiper-slide">
-								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
-									onclick="fotoSelect(this)">
-							</div>
-
+					<h1>Сотреть фото</h1>
+					<!-- Фото на выбор -->
+					<div>
+						<div class="slider1-main-foto--background">
+							<img id="slider1-main-foto" src="./image/chan max foto.jpg" alt>
 						</div>
 					</div>
 				</div>
+			</section>
+
+			<h1 class="slider-title">Фото</h1>
+			<section class="slider__wrapper">
+				<!-- Блок слайдера! -->
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper" id="swiperFoto">
+						<!-- Slides -->
+
+						<div class="swiper-slide leftPaddingFirstFoto">
+							<div class="swiper-slide--background">
+								<img class="redBorder" src="./image/chan max foto.jpg" alt
+									onclick="fotoSelect(this)">
+							</div>
+							<p>Сылка на фото</p>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<!-- <img src="./image/mini/micro chan 1 - Copy (2).jpg" alt -->
+								<img
+									src="https://sopranoclub.ru/images/190-epichnyh-anime-artov/file48671.png"
+									alt
+									onclick="fotoSelect(this)">
+
+								<p>Сылка на фото</p>
+							</div>
+
+						</div>
+
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
+									onclick="fotoSelect(this)">
+								<p>Сылка на фото</p>
+							</div>
+						</div>
 
 
 
-
-				<div class="slider__wrapper--button-next">
-					<span > смотреть далее ></span>
-				</div>
-
-
-
-
-
-			
-
-					<section class="advertising">
-						<!-- TODO -->
-						<!-- Реклама -->
-						<img src="./image/New Bitmap Image.jpg" alt="">
-					</section>
-					<section class="bottom__video">
 						
-						<div class="bottom__selected__video">
-							<!-- Видео -->
-							<iframe id="topVideo" width="1200" height="648"
-										src="https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA"
-										title="YouTube video player" frameborder="0"
-										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-										allowfullscreen></iframe>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								
+								<img  id= "test" src="./image/mini/micro chan 1 - Copy (3).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
 						</div>
 
 
-
-
-						<div>
-							<!-- action buttons -->
-							<div>Мода</div>
-							<div>Спорт</div>
-							<div>Кино</div>
-							<div>Музыка</div>
-							<div>Танцы</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
 						</div>
-					</section>
-					<footer>
-						<div class="footer__background"></div>
-						<!-- footer -->
-					</footer>
+
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide ">
+							<div class="swiper-slide--background">
+								<img class="redBorder" src="./image/chan max foto.jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+							<p>Сылка на фото</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+								<p>Сылка на фото</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
+								onclick="fotoSelect(this)">
+							</div>
+						</div>
+
+					</div>
 				</div>
+		</section>
+
+
+		<h1 class="triple___article--title">Карьера, награды</h1>
+		<article class="triple___article">
+			<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
+				в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
+				Семикратный обладатель «Золотого мяча», шестикратный — «Золотой бутсы».
+				Воспитанник академии «Барселоны», вместе с этим клубом выиграл десять
+				титулов</span>
+			<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
+				в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
+				Семикратный обладатель «Золотого мяча», шестикратный — «Золотой бутсы».
+				Воспитанник академии «Барселоны», вместе с этим клубом выиграл десять
+				титулов</span>
+			<span>Признаётся одним из лучших футболистов всех времён. Лучший бомбардир
+				в истории чемпионата Испании, «Барселоны» и сборной Аргентины.
+				Семикратный обладатель «Золотого мяча», шестикратный — «Золотой бутсы».
+				Воспитанник академии «Барселоны», вместе с </span>
+			<span class="triple___article--button">Читать далее ></span>
+		</article>
+			<div class="slider__wrapper--button-next">
+				<span> смотреть далее ></span>
 			</div>
+
+
+
+
+
+
+
+
+
+
+			<h1 class="slider-title">Видео</h1>
+			<div class="slider-sected-video">
+				<iframe id="topVideo" width="1200" height="832"
+						src="https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe>
+			</div>
+			<section class="slider__wrapper">
+				<!-- Блок слайдера! -->
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper" id="swiperFoto">
+						<!-- Slides -->
+
+						<div class="swiper-slide leftPaddingFirstFoto">
+							<div class="swiper-slide--background">
+								<img class="redBorder" src="./image/chan max foto.jpg" alt
+									onclick="videoSelect(this)">
+							</div>
+							<p>Сылка на фото</p>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<!-- <img src="./image/mini/micro chan 1 - Copy (2).jpg" alt -->
+								<img
+									src="https://sopranoclub.ru/images/190-epichnyh-anime-artov/file48671.png"
+									alt
+									onclick="videoSelect(this)">
+
+								<p>Сылка на фото</p>
+							</div>
+
+						</div>
+
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
+									onclick="videoSelect(this)">
+								<p>Сылка на фото</p>
+							</div>
+						</div>
+
+
+
+						
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								
+								<img  id= "test" src="./image/mini/micro chan 1 - Copy (3).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+
+
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide ">
+							<div class="swiper-slide--background">
+								<img class="redBorder" src="./image/chan max foto.jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+							<p>Сылка на фото</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (2).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+								<p>Сылка на фото</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (3).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (4).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (5).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (6).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide--background">
+								<img src="./image/mini/micro chan 1 - Copy (7).jpg" alt
+								onclick="videoSelect(this)">
+							</div>
+						</div>
+
+					</div>
+				</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<section>end</section>
+
 		</body>
 		<script src="./swiper/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
 		<script src="./script.js"></script>
