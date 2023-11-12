@@ -36,6 +36,8 @@ body {
 	display: grid;
 	justify-items: center;
 
+	width: 1600px;
+
 
 	background-color: black;
 	color: white;
@@ -453,7 +455,7 @@ body {
 }
 
 
-.swiper-slide{
+.swiper-slide {
 	/* margin: -5px; */
 }
 
@@ -471,7 +473,7 @@ body {
 	padding: 5px;
 
 	background: transparent;
-	
+
 }
 
 
@@ -480,7 +482,7 @@ body {
 	background: linear-gradient(265deg, #F00 -74.64%, #FFD466 112.9%);
 }
 
-.slider__wrapper--button-next{
+.slider__wrapper--button-next {
 	margin-top: 15px;
 	width: 1200px;
 	text-align: end;
@@ -490,7 +492,7 @@ body {
 
 
 /* Карьера награды */
-.triple___article--title{
+.triple___article--title {
 	width: 1200px;
 }
 
@@ -520,4 +522,88 @@ body {
 	grid-area: e;
 	justify-self: end;
 	cursor: pointer;
+}
+
+
+
+/* Видер от слайдера */
+#selected-video {
+	border-radius: 15px;
+
+}
+
+.slider-title {
+	color: #000;
+	font-feature-settings: 'clig' off, 'liga' off;
+
+	/* Подзаголвок */
+	font-family: Montserrat;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 98.5%;
+	/* 35.46px */
+}
+
+.next-video-button {
+	margin-top: 33px;
+	margin-bottom: 114px;
+	cursor: pointer;
+
+	color: #000;
+	/* text-align: center; */
+
+	/* Для раскрытия фото/ви део */
+	/* font-family: Montserrat; */
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+/* оранжевый блок рекламы */
+
+.advertising {
+	display: grid;
+	grid-template-columns: 1200px;
+	justify-items: center;
+
+	width: 1600px;
+
+	overflow: hidden;
+
+}
+
+.advertising-background {
+	width: 2120px;
+	height: 525px;
+	border-radius: 15px;
+	/* background: linear-gradient(265deg, #F00 -74.64%, #FFD466 112.9%); */
+	background: linear-gradient(132deg, #F00 -74.64%, #FFD466 112.9%);
+	/* Развернутый градиент */
+}
+
+
+
+/*Видео снизу  */
+.bottom-video-wrapper {
+	height: 822px;
+}
+
+
+/* footer */
+
+.footer {
+	display: grid;
+	grid-template-columns: 1200px;
+	justify-items: center;
+
+	width: 1600px;
+	overflow: hidden;
+}
+
+.footer-background {
+	width: 2120px;
+	height: 540px;
+	background-color: #000;
 }
