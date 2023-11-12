@@ -6,10 +6,17 @@ body {
 	/* height: 6000px; */
 }
 
+.main-container{
+	width: 1600px;
+	display: grid;
+	justify-items: center;
+	overflow: hidden;
+}
+
 
 html{
 	/* height: 6000px; */
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 /* Шрифты */
 
