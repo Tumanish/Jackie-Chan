@@ -74,7 +74,7 @@
 					Джеки Чан
 				</span>
 			</div>
-
+<!-- top video -->
 			<div class="section-main-video--background">
 				<div class="section-main-video__player-wrapper">
 					<iframe id="topVideo" width="1200" height="648"
@@ -82,6 +82,10 @@
 						title="YouTube video player" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						allowfullscreen></iframe>
+						<div id="section-main-video__star" onclick="starClick(this)">
+							<img id="section-main-video__star--img1" src="./image/videoEmptyStart.svg" alt="">
+							<img id="section-main-video__star--img2" class="main-video__star--hide" src="./image/videoFullStar.svg" alt="">
+						</div>
 				</div>
 
 				<div class="section-main-video__discription">
@@ -376,31 +380,109 @@
 
 			<!-- Оранжевый блок -->
 			<section class="advertising">
-				<div class="advertising-background">
-
+				<div class="advertising-background advertising-wrapper">
+					
+					<div class="advertising__title">
+						<span>Это интересно!</span>
+					</div>
+					<div class="advertising__text">
+						<span>Смотрите  самые свежие новости о <br>любимых спортсменах, музыкантах, 
+							 актерах,  моделях, дизайнерах и других. 
+							Приходи на встречи с мировыми звездами, 
+							дружи  с теми кто любит таких же  звезд! </span>
+					</div>
+					<div class="advertising__picture">
+						<img class="advertising__picture--position" src="./image/man.png" alt="">
+					</div>
 				</div>
 			</section>
 
 			<!-- Нижний блок с видео -->
 			<div class="bottom-video-wrapper">
-
 				<div class="slider-sected-video">
 					<iframe id="footer-video-selected" width="1200" height="822"
-					src="https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA"
-					title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen></iframe>
+						src="https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe>
 				</div>
 				<div class="bottom-video-menu">
-
+					<div class="bottom-video-menu__button bottom-video-menu__button-color1">
+						<span>Мода</span>
+					</div>
+					<div class="bottom-video-menu__button bottom-video-menu__button-color2">
+						<span>Спорт</span>
+					</div>
+					<div class="bottom-video-menu__button bottom-video-menu__button-color3">
+						<span>Кино</span>
+					</div>
+					<div class="bottom-video-menu__button bottom-video-menu__button-color4">
+						<span>Музыка</span>
+					</div><div class="bottom-video-menu__button bottom-video-menu__button-color5">
+						<span>Танцы</span>
+					</div>
 				</div>
 			</div>
+
+
+
+
+
+
+
+
+
+
 			<footer class="footer">
-				<div class="footer-background"></div>
+				<div class="footer-background">
+					<div class="footer__column footer__column-logo-shift">
+						<div class="footer__logo-text footer__text-center">
+							<span>World Stars</span>
+							<div class="footer__text footer__text-center">
+								<span>мировые звезды brics</span>
+							</div>
+						</div>
+						<div class="footer__text footer__column__text-padding">
+							<span>О нас</span>
+						</div>
+						<div class="footer__text footer__column__text-padding">
+							<span>Словарь сайта</span>
+						</div>
+						<div class="footer__text footer__column__text-padding">
+							<span>Контакты</span>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__text">
+							<span>Главная</span>
+						</div>
+						<div class="footer__text">
+							<span>Звезды кино</span>
+						</div>
+						<div class="footer__text">
+							<span>Мода</span>
+						</div>
+						<div class="footer__text">
+							<span>Встречи со звездами</span>
+						</div>
+						<div class="footer__text">
+							<span>Знакомься дружи</span>
+						</div>
+					</div>
+					<div class="footer__column footer__column--tree">
+						<div class="footer__text">
+							<span>Поддержка</span>
+						</div>
+						<div class="footer__text">
+							<span>Политика <br> конфиденциальности <br>Term of service</span>
+						</div>
+						<div class="footer__text">
+							<span>Знакомься дружи</span>
+						</div>
+					</div>
+
+				</div>
 			</footer>
-			
-
-
 		</body>
 		<script
 			src="./swiper/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
