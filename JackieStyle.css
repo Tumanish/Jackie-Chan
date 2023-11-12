@@ -470,6 +470,7 @@ body {
 
 .swiper-slide {
 	/* margin: -5px; */
+	cursor: pointer;
 }
 
 .swiper-slide img {
@@ -689,6 +690,9 @@ body {
 	line-height: 120%;
 
 	box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.12);
+
+	transition-property: padding;
+	transition-duration: 0.2s;
 }
 
 .bottom-video-menu__button:hover{
