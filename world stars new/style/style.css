@@ -18,6 +18,6 @@ body {
  }
 
 .home {
-   display: grid;
-   justify-content: center;
+   /* display: grid;
+   justify-content: center; */
 }
