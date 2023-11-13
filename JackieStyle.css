@@ -1,9 +1,23 @@
+/* Шрифты */
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("./font/Montserrat-VariableFont_wght.ttf") format("truetype");
+	/* font-style: normal; */
+	/* font-weight: 400; */
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+html{
+	display: grid;
+	justify-items: center;
+}
+
+
 body {
-	/* background-color: rgb(52, 84, 52); */
-	/* background-color: #B9E09C; */
-	/* background-color: rgb(22, 53, 22); */
-	/* overflow: hidden; */
-	/* height: 6000px; */
+
 	display: grid;
 	justify-items: center;
 }
@@ -17,20 +31,7 @@ body {
 }
 
 
-html{
-	display: grid;
-	justify-items: center;
-}
-/* Шрифты */
 
-@font-face {
-	font-family: "Montserrat";
-	src: url("./font/Montserrat-VariableFont_wght.ttf") format("truetype");
-	/* font-style: normal; */
-	/* font-weight: 400; */
-	font-style: normal;
-	font-weight: normal;
-}
 
 * {
 	font-family: 'Montserrat', sans-serif;
@@ -850,3 +851,6 @@ html{
 .footer__column--tree {
 	grid-auto-rows: max-content;
 }
+
+
+  

@@ -33,6 +33,7 @@ function videoSelect(element) {
 
 	let videoArray = [
 		"https://www.youtube.com/embed/8dmlK2yoLuk?si=butTfBtmXzHqr_7G;controls=0",
+		"https://www.youtube.com/embed/8dmlK2yoLuk?si=butTfBtmXzHqr_7G;controls=0",
 		"https://www.youtube.com/embed/WhNcqdZCgPE?si=IdC52uYUwatJlRbA;controls=0",
 
 	]
