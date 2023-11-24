@@ -742,6 +742,11 @@ body {
 	cursor: pointer;
 }
 
+.bottom-video-menu__button--selected {
+	/* 18px */
+	padding: 17px 8px 16px 8px;
+}
+
 .bottom-video-menu__button:hover {
 	padding: 17px 8px 16px 8px;
 
@@ -990,4 +995,5 @@ body {
 .footer__container-links-link--Contacts{
 	position: relative;
 	top: 25px;
+	cursor: pointer;
 }
